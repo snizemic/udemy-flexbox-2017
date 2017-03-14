@@ -1,5 +1,25 @@
-
 /* Your code goes here */
+p {
+  margin: 0;
+}
+
+.vcenter {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+  border: 1px solid white;
+}
+
+nav {
+  width: 100%;
+}
+
+li {
+  list-style-type: none;
+  flex-basis: 10%;
+}
+
 
 .grid {
   display: flex;
